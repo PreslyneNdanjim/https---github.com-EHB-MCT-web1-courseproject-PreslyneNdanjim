@@ -1,0 +1,122 @@
+/** @format */
+
+@font-face {
+	font-family: "sui_generisregular";
+	src: url("fonts/sui_generis_rg-webfont.woff2") format("woff2"),
+		url("fonts/bradley_gratis-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "neuropolregular";
+	src: url("fonts/neuropol-webfont.woff2") format("woff2"),
+		url("fonts/thebattlecont-webfont.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+}
+
+body {
+	margin: 0;
+	background-color: black;
+}
+
+.navigation {
+	height: 40px;
+	background: black;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: ;
+	margin-top: 30px;
+	margin-right: 120px; /* Move the navigation 30px to the left */
+	margin-left: 90px;
+	font-family: "sui_generisregular";
+	border: 5px solid #c8697f;
+	border-radius: 20px;
+}
+
+.navigation a {
+	margin-right: 80px; /* Adjust the spacing between the items */
+	color: #afa395; /* Example text color */
+	text-decoration: none; /* Remove underline from links */
+}
+
+.foto {
+	width: 300px;
+	height: 300px;
+}
+
+h1 {
+	color: #c8697f;
+	font-size: 30px;
+	font-family: "neuropolregular";
+}
+
+p {
+	color: #afa395;
+	font-size: 1§px;
+	font-family: "sui_generisregular";
+}
+
+.row1 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center; /* Align items vertically in the center */
+}
+
+.left1,
+.right1 {
+	margin: 10px; /* Optional margin between text and image */
+}
+
+.left1 {
+	margin-left: 130px;
+	margin-right: 200px;
+}
+
+.right1 {
+	margin-right: 200px;
+}
+
+.row2 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center; /* Align items vertically in the center */
+}
+
+.right2,
+.left2 {
+	margin: 10px; /* Optional margin between text and image */
+}
+
+.right2 {
+	margin-left: 130px;
+	margin-right: 200px;
+}
+
+.left2 {
+	margin-left: 200px;
+}
+
+.row3 {
+	display: flex;
+	justify-content: space-around;
+	align-items: center; /* Align items vertically in the center */
+}
+
+.left3,
+.right3 {
+	margin: 10px; /* Optional margin between text and image */
+}
+
+.left3 {
+	margin-left: 130px;
+	margin-right: 200px;
+}
+
+.right3 {
+	margin-right: 200px;
+}
